@@ -85,18 +85,18 @@ mode  : standalone
 <p style='text-align:center'><img src='http://blog.kaggle.com/wp-content/uploads/2011/11/kaggle-tools1.png'></img></p>
 <font size=4> <p style='text-align:center'>圖片來源：https://www.kaggle.com/wiki/Software</p></font>
 
---- #tools x:-130 y:2694 z:-100 scale:2 rotx:90
+--- .slide x:-130 y:2694 z:1000  
 <q> **輕易與其他工具整合** </q>
 ```{r, fig.cap="",echo=FALSE,warning=FALSE,message=FALSE,fig.width=8,fig.height=6,fig.align='center'}
 library("wordcloud")
 wordcloud(words=c('ggmap','Rcpp','googleVis','XML','rpy2','R.matlab','rJava','Rmarkdown','RMySQL','rmongodb','RHadoop','Rjason','OpenStreetMap'),freq=seq(10,20,0.8),rot.per=0,fixed.asp = FALSE,colors=rainbow(20, alpha = 1)[8:20])
 ```
 
---- #example x:-866 y:2402 z:-100 scale:2
+--- #example x:-866 y:2402 z:-2000 scale:2
 
 # 實際案例
 
---- #girlfriend x:-1379 y:2062 rotx:-90
+--- .slide x:-1379 y:2062 rotx:-90
 
 # 小明想要找個女朋友....
 
