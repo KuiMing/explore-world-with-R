@@ -85,16 +85,16 @@ mode  : standalone
 <p style='text-align:center'><img src='http://blog.kaggle.com/wp-content/uploads/2011/11/kaggle-tools1.png'></img></p>
 <font size=4> <p style='text-align:center'>圖片來源：https://www.kaggle.com/wiki/Software</p></font>
 
---- #tools x:-130 y:2694 z:-100 scale:2 rotx:90
+--- .slide x:-130 y:2694 z:1000  
 <q> **輕易與其他工具整合** </q>
 <img src="figure/unnamed-chunk-1.png" title="" alt="" style="display: block; margin: auto;" />
 
 
---- #example x:-866 y:2402 z:-100 scale:2
+--- #example x:-866 y:2402 z:-2000 scale:2
 
 # 實際案例
 
---- #girlfriend x:-1379 y:2062 rotx:-90
+--- .slide x:-1379 y:2062 rotx:-90
 
 # 小明想要找個女朋友....
 
