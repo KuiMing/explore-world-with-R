@@ -1,5 +1,5 @@
 ---
-title: Visualization with R
+title: Explore the world with R
 author: 陳奎銘
 hitheme     : zenburn      
 framework: impressjs
@@ -95,7 +95,12 @@ mode  : standalone
 # 實際案例
 
 --- .slide x:-1379 y:2062 rotx:-90
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 # 小明想要找個女朋友....
 
 --- #girlfriend1 x:-1643 y:1691
@@ -145,14 +150,21 @@ mode  : standalone
 --- #Model x:6192 y:183
 <q> **利用各種Data Mining的套件** </q>
 
-    library(randomForest)
-    library(e1071)
-    library(MASS)
-    model1=randomForest(bi~a+b+c+d+e
-                       ,data)
-    model2=svm(bi~a+b+c+d+e,data)
-    model3=lda(bi~a+b+c+d+e,data)
-    model4=lm(bi~a+b+c+d+e,data)
+<table border=1>
+<td>
+<img src='/home/kmchen/impress/lm.png' width=450></img>
+</td>
+<td>
+<img src='/home/kmchen/impress/rf.png' width=450></img>
+</td>
+<tr>
+<td>
+<img src='/home/kmchen/impress/hc.png' width=450></img>
+</td>
+<td>
+<img src='/home/kmchen/impress/svm.png' width=450></img>
+</td>
+</table>
 
 --- #shiny x:7024 y:445
 # 以Shiny提供App服務
